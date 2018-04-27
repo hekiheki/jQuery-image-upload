@@ -91,7 +91,7 @@
 // 引入jquery文件
 <script src="jquery.min.js"></script>
 // 引入uploadFile.js
-<script src="uploadFile.js"></script>
+<script src="fileUpload.js"></script>
 <script>
 	$('#upload').fileUpload({
         multiple: true,

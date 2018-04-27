@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="fileUpload.css">
+</head>
+<body>
+<form action="">
+	<div id="upload"></div>
+	<input type="submit">
+
+<script src="jquery.min.js"></script>
+
+<script src="fileUpload.js"></script>
+<script>
+	$('#upload').fileUpload({
+        multiple: true,
+        maxLength: 3,
+        showImage: true
+    });
+</script>
+</form>
+</body>
+</html>
